@@ -75,11 +75,11 @@ var work = {
         "description": "Currently managing all Salesforce.com improvement projects including the implementation of new features, " +
             "daily operation improvement efforts and new user training while actively engaging with the multiple sales business owners " +
             "to solicit the needs of the end users." + "<br>" +
-            "•	•	Using Agile Accelerator within Salesforce improved agile process within the team to more effectively execute within " +
+            "•	Using Agile Accelerator within Salesforce improved agile process within the team to more effectively execute within " +
             "the team and improve communication to stakeholders on the roadmap." + "<br>" +
-            "•	•	Led the transition of daily case, user management and system data load processes to an offshore resource to free onshore " +
+            "•	Led the transition of daily case, user management and system data load processes to an offshore resource to free onshore " +
             "team members to focus on new automation efforts." + "<br>" +
-            "•	•	Implementing the WalkMe client to 1500 end users within both browsers and mobile devices allowing users a training option " +
+            "•	Implementing the WalkMe client to 1500 end users within both browsers and mobile devices allowing users a training option " +
             "using live data with future releases planned as new features are developed."
 
     }, {
