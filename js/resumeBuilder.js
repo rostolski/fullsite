@@ -2,7 +2,7 @@
 
 var topSkills = ["Project Management", "Agile/Kanban", "Business Analysis"];
 // not using var skills, left in as I might use to create a new section at a later point displaying a larger list of skills
-var skills = ["SharePoint", "Team Foundation Server", "SalesForce",
+var skills = ["SharePoint", "Team Foundation Server", "Salesforce",
     "VersionOne", "JIRA", "Confluence", "Microsoft Office Suite",
     "Microsoft Project", "Microsoft Outlook", "Microsoft Visio",
     "Agile/Kanban", "Business Analysis", "Project Management",
@@ -11,10 +11,9 @@ var skills = ["SharePoint", "Team Foundation Server", "SalesForce",
     "HTML", "CSS", "Python", "JavaScript"
 ];
 
-var overview = "Innovative and experienced project/program manager with a record of " +
+var overview = "Innovative and forward-thinking leader with a record of " +
     "developing and supporting successful solutions incorporating a wide " +
-    "range of applications and technologies.  Currently looking for a new role while "+
-    "learning new development skills that led to the creation of this site.";
+    "range of applications and technologies.  ";
 
 var bio = {
     "name": "Ryan Ostolski",
@@ -68,6 +67,22 @@ bio.display();
 var work = {
     // defining work object
     "jobs": [{
+        "employer": "HD Supply",
+        "url": "http://hdsupplysolutions.com",
+        "title": "Senior Project Manager",
+        "dates": "Nov 2016 - Present",
+        "location": "Atlanta, GA",
+        "description": "Currently managing all Salesforce.com improvement projects including the implementation of new features, " +
+            "daily operation improvement efforts and new user training while actively engaging with the multiple sales business owners " +
+            "to solicit the needs of the end users." + "<br>" +
+            "•	•	Using Agile Accelerator within Salesforce improved agile process within the team to more effectively execute within " +
+            "the team and improve communication to stakeholders on the roadmap." + "<br>" +
+            "•	•	Led the transition of daily case, user management and system data load processes to an offshore resource to free onshore " +
+            "team members to focus on new automation efforts." + "<br>" +
+            "•	•	Implementing the WalkMe client to 1500 end users within both browsers and mobile devices allowing users a training option " +
+            "using live data with future releases planned as new features are developed."
+
+    }, {
         "employer": "Core Security",
         "url": "https://www.coresecurity.com",
         "title": "Professional Services Project Manager",
@@ -219,10 +234,10 @@ var education = {
         "dates": "Finished October 2016",
         "url": "files/IntroNanoDegree.pdf"
     }, {
-        "title": "Full Stack Web Developer NanoDegree - In Progress",
+        "title": "Deep Learning NanoDegree - In Progress",
         "school": "Udacity",
-        "dates": "Started October 2016",
-        "url": "https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004"
+        "dates": "Started February 2017",
+        "url": "https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101"
     }
   ]
 };
