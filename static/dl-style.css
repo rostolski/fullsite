@@ -1,0 +1,64 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes. Review Lesson 1.3
+if you need a refresher about how to do this. */
+
+
+body {
+  padding: 20px 10px;
+  font-family: Helvetica;
+  max-width: 2000px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+
+.content {
+  background-color: #294860;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+	color: white;
+
+}
+
+.header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+
+.body-container {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+
+.body-work {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.project-link {
+  background-color: #131A2D;
+  text-align: center;
+  font-weight: normal;
+  width: 400px;
+  height: 300px;
+  line-height: 300px;
+  padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	color: #D0C4AB;
+}
