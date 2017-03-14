@@ -282,9 +282,9 @@ education.display = function(){
 
 education.display();
 
-var images = [["files/Fresh-Tomatoes-Site.jpg", "files/Movie-Code.jpg"],["files/gcp.jpg"]];
-var imageTitle = [["Python Generated HTML Site", "Code snapshot"],["Google Cloud Platform"]];
-var imageDescription = [["",""],[""]];
+var images = [["files/Fresh-Tomatoes-Site.jpg", "files/Movie-Code.jpg"],["files/gcp.jpg"],["files/Output_image.jpg"]];
+var imageTitle = [["Python Generated HTML Site", "Code snapshot"],["Google Cloud Platform"],["Style Transfer"]];
+var imageDescription = [["",""],[""],[""]];
 
 var projects = {
     "projects": [{
@@ -311,6 +311,17 @@ var projects = {
         "imageTitle" : imageTitle[1],
         "imageDescription" : imageDescription[1],
         "fileLink" : "/blog"
+    },
+    {
+        "title": "Deep Learning Jupyter Notebooks",
+        "dates": "Started February 2017",
+        "description": "For the Deep Learning Foundations NanoDegree I am regularly assigned new projects.  This section " +
+        "covers a few of those projects displayed as an HTML file.  As more projects are completed this section will continue to be "+
+        "updated until the course is completed.  To view more project detail click on the header.",
+        "images": images[2],
+        "imageTitle" : imageTitle[2],
+        "imageDescription" : imageDescription[2],
+        "fileLink" : "templates/dl_portal.html"
     }
   ]
 };
