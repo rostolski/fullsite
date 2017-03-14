@@ -26,6 +26,11 @@ handlers:
   upload: movie_website/fresh_tomatoes.html
   expiration: "15m"
 
+- url: /templates/.*
+  static_files: templates/dl_portal.html
+  upload: templates/dl_portal.html
+  expiration: "15m"
+
 - url: /.*
   script: blog.app
 
