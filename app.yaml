@@ -27,9 +27,18 @@ handlers:
   expiration: "15m"
 
 - url: /dl/.*
-  mime_type: application/html
-  static_files: dl/\1
-  upload: dl/.*
+  static_files: dl/dl_portal.html
+  upload: dl/dl_portal.html
+  expiration: "15m"
+
+- url: /dl/.*
+  static_files: dl/image_class.html
+  upload: dl/image_class.html
+  expiration: "15m"
+
+- url: /dl/.*
+  static_files: dl/neural_network.html
+  upload: dl/neural_network.html
   expiration: "15m"
 
 - url: /.*
