@@ -25,8 +25,8 @@ handlers:
   expiration: "15m"
 
 - url: /templates/.*
-  static_files: templates/dl_portal.html
-  upload: templates/dl_portal.html
+  static_files: templates/\1
+  upload: templates/(.*\.html)
   expiration: "15m"
 
 - url: /.*
