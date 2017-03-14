@@ -321,7 +321,7 @@ var projects = {
         "images": images[2],
         "imageTitle" : imageTitle[2],
         "imageDescription" : imageDescription[2],
-        "fileLink" : "templates/dl_portal.html"
+        "fileLink" : "dl/dl_portal.html"
     }
   ]
 };
