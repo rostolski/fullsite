@@ -24,12 +24,13 @@ handlers:
 - url: /movie_website/.*
   static_files: movie_website/fresh_tomatoes.html
   upload: movie_website/fresh_tomatoes.html
-  expiration: "15m"
+  expiration: "1h"
 
-- url: /dl/.*
-  static_files: dl/.*
-  upload: dl/.*
-  expiration: "15m"
+- url: /dl/(.*\.html)
+  mime_type: text/html
+  static_files: dl/\1
+  upload: dl/(.*\.html)
+  expiration: "1h"
 
 - url: /.*
   script: blog.app
