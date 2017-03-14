@@ -31,14 +31,14 @@ handlers:
   upload: dl/dl_portal.html
   expiration: "15m"
 
-- url: /dl/.*
-  static_files: dl/image_class.html
-  upload: dl/image_class.html
+- url: /.*
+  static_files: image_class.html
+  upload: image_class.html
   expiration: "15m"
 
-- url: /dl/.*
-  static_files: dl/neural_network.html
-  upload: dl/neural_network.html
+- url: /.*
+  static_files: neural_network.html
+  upload: neural_network.html
   expiration: "15m"
 
 - url: /.*
