@@ -282,8 +282,8 @@ education.display = function(){
 
 education.display();
 
-var images = [["files/Fresh-Tomatoes-Site.jpg", "files/Movie-Code.jpg"],["files/gcp.jpg"],["files/Output_image.jpg"]];
-var imageTitle = [["Python Generated HTML Site", "Code snapshot"],["Google Cloud Platform"],["Style Transfer"]];
+var images = [["files/Fresh-Tomatoes-Site.jpg", "files/Movie-Code.jpg"],["files/gcp.jpg"],["files/nd101.jpg"]];
+var imageTitle = [["Python Generated HTML Site", "Code snapshot"],["Google Cloud Platform"],["Deep Learning"]];
 var imageDescription = [["",""],[""],[""]];
 
 var projects = {
