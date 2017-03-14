@@ -27,6 +27,7 @@ handlers:
   expiration: "15m"
 
 - url: /dl/.*
+  mime_type: application/html
   static_files: dl/\1
   upload: dl/.*
   expiration: "15m"
