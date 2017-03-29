@@ -76,7 +76,7 @@ var work = {
         "SAP, daily operation improvement efforts and new user training while actively engaging with the business to solicit new requirements." + "<br>" +
             "•	Using Agile Accelerator within Salesforce adapted existing agile process to more effectively execute across the team and improve communication "+
             "to stakeholders on the roadmap." + "<br>" +
-            "•	Automated multiple daily operation tasks including data loads and response to common customer cases alleviated 4-8 hours of daily work from a team member." + "<br>" +
+            "•	Automated multiple daily operation tasks including data loads and response to common customer cases alleviating 4-8 hours of daily work from a team member." + "<br>" +
             "•	Implementing the WalkMe client to 1500 end users within both browsers and mobile devices allowing users a training option " +
             "using live data with future releases planned as new features are developed."
 
