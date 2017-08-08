@@ -240,7 +240,7 @@ var education = {
         "title": "Deep Learning NanoDegree - In Progress",
         "school": "Udacity",
         "dates": "Started February 2017",
-        "url": "https://www.udacity.com/course/deep-learning-nanodegree-foundation--nd101"
+        "url": "files/DLNanodegree.pdf"
     }
   ]
 };
@@ -317,10 +317,9 @@ var projects = {
     },
     {
         "title": "Deep Learning Jupyter Notebooks",
-        "dates": "Started February 2017",
-        "description": "For the Deep Learning Foundations NanoDegree I am regularly assigned new projects.  This section " +
-        "covers a few of those projects displayed as an HTML file.  As more projects are completed this section will continue to be "+
-        "updated until the course is completed.  To view more project detail click on the header.",
+        "dates": "June 2017",
+        "description": "For the Deep Learning Foundations NanoDegree I was regularly assigned new projects.  This section " +
+              "covers a few of those projects displayed as an HTML file. To view more project detail click on the header.",
         "images": images[2],
         "imageTitle" : imageTitle[2],
         "imageDescription" : imageDescription[2],
