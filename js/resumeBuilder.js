@@ -237,9 +237,9 @@ var education = {
         "dates": "Finished October 2016",
         "url": "files/IntroNanoDegree.pdf"
     }, {
-        "title": "Deep Learning NanoDegree - In Progress",
+        "title": "Deep Learning NanoDegree",
         "school": "Udacity",
-        "dates": "Started February 2017",
+        "dates": "Finished June 2017",
         "url": "files/DLNanodegree.pdf"
     }
   ]
