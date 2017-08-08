@@ -67,17 +67,22 @@ bio.display();
 var work = {
     // defining work object
     "jobs": [{
-        "employer": "HD Supply",
-        "url": "http://hdsupplysolutions.com",
-        "title": "Senior Project Manager",
+        "employer": "The Intersect Group",
+        "url": "http://theintersectgroup.com/index.php",
+        "title": "Project Managment Consultant",
         "dates": "Nov 2016 - Present",
         "location": "Atlanta, GA",
-        "description": "Currently managing all Salesforce.com projects including the implementation of new features, integrations with "+
+        "description": "Managed migration from Manhattan to Oracle Transportation Management (OTM) with integrations to SAP for West Rock's "+
+        "logistic business unit actively supporting $1.5 billion in yearly shipping costs."+"<br>"+
+            "•	Led the introduction of ServiceNow Agile to the project team to more effectively manage the backlog of features and engage with the business to receive constant feedback."+"<br>"+
+            "•	Engaged business teams to create a test plan including the documentation of testing scenarios, the steps to create test data and the processes to execute testing."+"<br>"+
+            "•	Developed RACI matrix within both business and IT teams."+"<br>"+"<br>"+
+        "Managed all Salesforce.com projects for HD Supply including the implementation of new features, integrations with "+
         "SAP, daily operation improvement efforts and new user training while actively engaging with the business to solicit new requirements." + "<br>" +
             "•	Using Agile Accelerator within Salesforce adapted existing agile process to more effectively execute across the team and improve communication "+
             "to stakeholders on the roadmap." + "<br>" +
             "•	Automated multiple daily operation tasks including data loads and response to common customer cases alleviating 4-8 hours of daily work from a team member." + "<br>" +
-            "•	Implementing the WalkMe client to 1500 end users within both browsers and mobile devices allowing users a training option " +
+            "•	Implemented the WalkMe client to 1500 end users within both browsers and mobile devices allowing users a training option " +
             "using live data with future releases planned as new features are developed."
 
     }, {
